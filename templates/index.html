@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js" defer></script>
+    <link rel="icon" type="image/png" href="image/image.png">
+    <title>ROT13 Шифрование и Расшифровка</title>
+</head>
+<body>
+    <h1>ROT13<br>Шифрование и Расшифровка</h1>
+    <p>Кибяков Денис ИСП-31</p>
+    <div class="ROT13">
+        <div class="box">
+            <h3>Исходный текст</h3>
+            <textarea id="inputText" placeholder="Введите текст"></textarea>
+            <select id="mode">
+                <option value="encrypt">Шифрование</option>
+                <option value="decrypt">Расшифровка</option>
+            </select>
+            <br>
+            <button onclick="submit()">Обработать</button>
+        </div>
+        <div class="box">
+            <h3>Результат</h3>
+            <textarea id="resultText" readonly></textarea>
+        </div>
+    </div>
