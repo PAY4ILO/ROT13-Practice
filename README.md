@@ -10,7 +10,7 @@ git clone https://github.com/PAY4ILO/ROT13-Practice.git
 Перейдите в папку проекта:
 
 ```bash
-cd my-server
+cd ROT13-Practice
 ```
 Установите зависимости:
 ```bash
