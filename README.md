@@ -20,7 +20,10 @@ npm install
 ```bash
 node server.js
 ```
-
+Откройте браузер и перейдите по адресу:
+```bash
+http://localhost:3000
+```
 
 Через ZIP-архив (без Git)
 
