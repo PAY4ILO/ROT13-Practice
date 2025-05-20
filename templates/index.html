@@ -25,5 +25,13 @@
         <div class="box">
             <h3>Результат</h3>
             <textarea id="resultText" readonly></textarea>
+            <button onclick="copyToClipboard()">Скопировать в буфер обмена</button>
+            <script>
+  function copyToClipboard() {
+  const textarea = document.getElementById("resultText");
+  textarea.select();
+  document.execCommand("copy");
+}
+            </script>
         </div>
     </div>
