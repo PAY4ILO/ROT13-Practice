@@ -82,14 +82,14 @@ function submit() {
     }
 if (inputText === 'PAKOK') { 
     const gif = document.createElement('img');
-    gif.src = 'image/GADEEEM.gif';
+    gif.src = 'templates/image/GADEEEM.gif';
     gif.style.width = '300px';
     document.getElementById('gifContainer').innerHTML = '';
     document.getElementById('gifContainer').appendChild(gif);
 }
 if (inputText === 'PAKOKEND') { 
     const gif = document.createElement('img');
-    gif.src = 'image/GADEEEM.gif';
+    gif.src = 'templates/image/GADEEEM.gif';
     gif.style.width = '0px';
     document.getElementById('gifContainer').innerHTML = '';
     document.getElementById('gifContainer').appendChild(gif);
